@@ -21,7 +21,7 @@ def register():
         print(password)
 
         flash("Usuário registrado com sucesso!")
-        return redirect('home.html')
+        return redirect('home')
     
     return render_template('register.html', form=form)
 
